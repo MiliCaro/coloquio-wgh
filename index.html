@@ -219,6 +219,13 @@ ul{list-style:none}
   .sponsor-special{flex-direction:column;align-items:flex-start}
   .footer-top{grid-template-columns:1fr}
 }
+
+/* líderes de la comisión */
+.leaders-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:18px;margin-top:36px}
+.leader{display:flex;align-items:center;gap:16px;background:#fff;border:1px solid var(--line);border-radius:14px;padding:22px 24px}
+.leader .lead-av{width:54px;height:54px;border-radius:50%;background:var(--accent-soft);color:var(--midnight);display:grid;place-items:center;font-weight:800;font-size:1.18rem;flex-shrink:0}
+.leader .lead-name{font-weight:700;font-size:1.08rem}
+.leader .lead-role{color:var(--muted);font-size:.9rem}
 </style>
 </head>
 <body>
@@ -429,6 +436,16 @@ ul{list-style:none}
       </div>
     </div>
 
+    <!-- CARTA DE SOLICITUD DE AUSPICIOS -->
+    <div class="note" style="margin-top:26px;align-items:flex-start">
+      <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16v16H4z"/><path d="m4 7 8 5 8-5"/></svg></div>
+      <div>
+        <h4>¿Vas a buscar un auspicio? Empezá con la carta modelo</h4>
+        <p>Hacé una <strong>copia</strong> de la carta de solicitud de auspicios, editala con los datos de tu organización y enviála a las empresas que quieras invitar. Una vez confirmado el auspicio, enviá la <strong>confirmación y los logos a Catalina o Gabriela</strong>.</p>
+        <a class="btn btn-accent btn-sm" href="https://docs.google.com/document/d/137aIVO44s3MkPYQ-OeuZGd24wARYbZEG9itKZn02VnA/copy" target="_blank" rel="noopener" style="margin-top:12px"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg> Hacer una copia de la carta</a>
+      </div>
+    </div>
+
     <!-- NOTA REUNIONES DE COMISIÓN -->
     <div class="note">
       <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg></div>
@@ -436,6 +453,20 @@ ul{list-style:none}
         <h4>Reuniones de la comisión</h4>
         <p>Nos encontramos todos los lunes a las 9 h. ¿Querés sumarte a organizar el Coloquio? Escribinos y te contamos cómo participar.</p>
       </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- LÍDERES DE LA COMISIÓN -->
+<section class="section">
+  <div class="container">
+    <p class="eyebrow">Liderazgo</p>
+    <h2 class="section-title">Líderes de la comisión</h2>
+    <p class="lead">Quienes coordinan y facilitan el trabajo del equipo, dan seguimiento a los acuerdos y apoyan la coordinación general.</p>
+    <div class="leaders-grid">
+      <div class="leader"><div class="lead-av">CP</div><div><div class="lead-name">Catalina Picone</div><div class="lead-role">Co-líder de la comisión</div></div></div>
+      <div class="leader"><div class="lead-av">GP</div><div><div class="lead-name">Gabriela Pittis</div><div class="lead-role">Co-líder de la comisión</div></div></div>
     </div>
   </div>
 </section>
