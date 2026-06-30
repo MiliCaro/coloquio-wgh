@@ -226,6 +226,11 @@ ul{list-style:none}
 .leader .lead-av{width:54px;height:54px;border-radius:50%;background:var(--accent-soft);color:var(--midnight);display:grid;place-items:center;font-weight:800;font-size:1.18rem;flex-shrink:0}
 .leader .lead-name{font-weight:700;font-size:1.08rem}
 .leader .lead-role{color:var(--muted);font-size:.9rem}
+
+/* aviso de preventa */
+.promo-banner{display:inline-flex;align-items:center;gap:12px;margin-top:20px;background:var(--accent-soft);border:1px solid var(--accent);color:#fff;padding:9px 16px;border-radius:30px;font-size:.9rem;flex-wrap:wrap}
+.promo-banner .promo-badge{background:var(--accent);color:var(--midnight);font-weight:800;font-size:.78rem;padding:4px 12px;border-radius:20px;letter-spacing:.03em}
+.promo-banner strong{color:var(--accent)}
 </style>
 </head>
 <body>
@@ -277,6 +282,10 @@ ul{list-style:none}
           <!-- TODO: pegar link de Eventbrite cuando esté disponible -->
           <a class="btn btn-accent" href="#" rel="noopener">Reservar lugar</a>
           <a class="btn btn-outline-white" href="#sponsors">Ser sponsor</a>
+        </div>
+        <div class="promo-banner">
+          <span class="promo-badge">30% OFF</span>
+          <span>Preventa hasta el <strong>31 de julio</strong> · usá el código <strong>PREVENTA</strong></span>
         </div>
       </div>
       <!-- TARJETA DE EVENTO -->
