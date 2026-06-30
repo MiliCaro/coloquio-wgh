@@ -13,11 +13,13 @@ Página HTML self-contained (un solo archivo, sin paso de build). Lista para pub
 - **Fecha:** 24 de agosto · **Lugar:** Paseo La Plaza, CABA · **Horario:** 14 a 18 h
 - Reuniones de la comisión: lunes 9 h
 
-## Pendiente de completar
-- **Link de Eventbrite:** buscá los comentarios `<!-- TODO: pegar link de Eventbrite -->` en `index.html` (navbar, hero, closing y footer) y reemplazá `href="#"` por el link real cuando esté disponible.
+## Inscripción y preventa
+- **Inscripción (Eventbrite):** https://www.eventbrite.com.ar/e/coloquio-lideres-en-salud-edicion-2026-tickets-1992761477222
+- **Preventa:** 30% OFF hasta el 31 de julio con el código **PREVENTA** (aviso visible en el hero).
 
 ## Links integrados
 - Propuesta de sponsors (Canva): https://canva.link/zyp3vgu6e2zoexs
+- Carta de solicitud de auspicios (Google Doc, se abre en modo copia)
 
 ## Publicar en GitHub Pages
 1. Subí este repo a GitHub (usuario `milicaro`).
